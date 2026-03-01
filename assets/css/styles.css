@@ -56,15 +56,15 @@ body{
 .muted{color:var(--muted)}
 .toolbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-top:8px}
 .input{flex:1;min-width:220px;padding:10px 12px;border-radius:12px;border:2px solid var(--line)}
-.select{padding:10px 12px;border-radius:12px;border:2px solid var(--line);background:#b7f7ff}
+.select{padding:10px 12px;border-radius:12px;border:2px solid var(--line);background:#000000}
 .btn{
   padding:10px 12px;
   border-radius:12px;
   border:2px solid var(--line);
-  background:#000000;
+  background:#9effff;
   cursor:pointer;
   text-decoration:none;
-  color:#002022;
+  color:#96f8ff;
   display:inline-block;
   transition: all 0.3s ease;
   font-weight: 500;
@@ -73,21 +73,6 @@ body{
 .btn:hover{
   background: var(--brand);
   transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(0,0,0,.2);
-}
-.btn,
-.btn:link,
-.btn:visited {
-  color: #001e20;
-  text-decoration: none;
-}
-
-.btn:hover,
-.btn:active {
-  color: white;
-}
-
-.btn * {
-  color: inherit;
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.2);
 }
 .repoMeta{display:flex;gap:10px;flex-wrap:wrap;align-items:center;font-size:12px;color:var(--muted)}
