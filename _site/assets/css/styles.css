@@ -5,7 +5,7 @@
   --card:#96c5c8;
   --line:rgb(41, 77, 88);
   --brand:#000000;
-  --brand2:#b7f7ff;
+  --brand2:#5e6f71;
   --shadow: 0 16px 50px rgba(2,6,23,.10);
   --radius: 18px;
 }
@@ -56,12 +56,12 @@ body{
 .muted{color:var(--muted)}
 .toolbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-top:8px}
 .input{flex:1;min-width:220px;padding:10px 12px;border-radius:12px;border:2px solid var(--line)}
-.select{padding:10px 12px;border-radius:12px;border:2px solid var(--line);background:#000000}
+.select{padding:10px 12px;border-radius:12px;border:2px solid var(--line);background:#7ffffd}
 .btn{
   padding:10px 12px;
   border-radius:12px;
   border:2px solid var(--line);
-  background:rgb(153, 255, 253);
+  background:rgb(80, 111, 110);
   cursor:pointer;
   text-decoration:none;
   color:#ffffff;
