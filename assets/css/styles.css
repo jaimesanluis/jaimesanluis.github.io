@@ -75,4 +75,19 @@ body{
   transform: translateY(-2px);
   box-shadow: 0 8px 20px rgba(0,0,0,.2);
 }
+.btn,
+.btn:link,
+.btn:visited {
+  color: #001e20;
+  text-decoration: none;
+}
+
+.btn:hover,
+.btn:active {
+  color: white;
+}
+
+.btn * {
+  color: inherit;
+}
 .repoMeta{display:flex;gap:10px;flex-wrap:wrap;align-items:center;font-size:12px;color:var(--muted)}
