@@ -64,16 +64,14 @@ body{
   background:#b7f7ff;
   cursor:pointer;
   text-decoration:none;
-  color:cyan;
+  color:#002022;
+  display:inline-block;
   transition: all 0.3s ease;
-}
-
-.btn:visited{
-  color:#001e20;
 }
 
 .btn:hover{
   background:#97ecff;
-  color:rgb(255, 255, 255);
+  color:white;
+  transform: translateY(-2px);
 }
 .repoMeta{display:flex;gap:10px;flex-wrap:wrap;align-items:center;font-size:12px;color:var(--muted)}
