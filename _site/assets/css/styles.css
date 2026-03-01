@@ -4,7 +4,7 @@
   --muted:#4b6b70;
   --card:#96c5c8;
   --line:rgb(41, 77, 88);
-  --brand:#94f3ff;
+  --brand:#000000;
   --brand2:#b7f7ff;
   --shadow: 0 16px 50px rgba(2,6,23,.10);
   --radius: 18px;
@@ -56,12 +56,12 @@ body{
 .muted{color:var(--muted)}
 .toolbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-top:8px}
 .input{flex:1;min-width:220px;padding:10px 12px;border-radius:12px;border:2px solid var(--line)}
-.select{padding:10px 12px;border-radius:12px;border:2px solid var(--line);background:#37f2ff}
+.select{padding:10px 12px;border-radius:12px;border:2px solid var(--line);background:#000000}
 .btn{
   padding:10px 12px;
   border-radius:12px;
   border:2px solid var(--line);
-  background:#000000;
+  background:rgb(153, 255, 253);
   cursor:pointer;
   text-decoration:none;
   color:#ffffff;
