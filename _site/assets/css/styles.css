@@ -57,9 +57,23 @@ body{
 .toolbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-top:8px}
 .input{flex:1;min-width:220px;padding:10px 12px;border-radius:12px;border:2px solid var(--line)}
 .select{padding:10px 12px;border-radius:12px;border:2px solid var(--line);background:#b7f7ff}
-.btn{padding:10px 12px;border-radius:12px;border:2px solid var(--line);background:#b7f7ff;cursor:pointer;text-decoration:none;color:#a3f9ff;}
-.btn.active{border-color:#93c5fd;background:#eff6ff}
-.btn:hover {
-  color:#a3f9ff;
+.btn{
+  padding:10px 12px;
+  border-radius:12px;
+  border:2px solid var(--line);
+  background:#b7f7ff;
+  cursor:pointer;
+  text-decoration:none;
+  color:cyan;
+  transition: all 0.3s ease;
+}
+
+.btn:visited{
+  color:#001e20;
+}
+
+.btn:hover{
+  background:#97ecff;
+  color:rgb(255, 255, 255);
 }
 .repoMeta{display:flex;gap:10px;flex-wrap:wrap;align-items:center;font-size:12px;color:var(--muted)}
