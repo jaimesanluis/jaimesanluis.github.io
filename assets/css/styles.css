@@ -61,7 +61,7 @@ body{
   padding:10px 12px;
   border-radius:12px;
   border:2px solid var(--line);
-  background:rgb(0, 0, 0);
+  background:rgb(255, 2, 2);
   cursor:pointer;
   text-decoration:none;
   color:#ffffff;
