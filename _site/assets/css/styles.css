@@ -1,10 +1,10 @@
 :root{
   --bg:hsl(184, 93%, 72%);
-  --text:#789fa0;
-  --muted:#73f1fa;
+  --text:#062a32;
+  --muted:#4b6b70;;
   --card:#96c5c8;
   --line:rgb(41, 77, 88);
-  --brand:#00161b;
+  --brand:#062a32;
   --brand2:#ffffff;
   --shadow: 0 16px 50px rgba(2,6,23,.10);
   --radius: 18px;
@@ -15,6 +15,7 @@ body{
   font-family: ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;
   background: var(--bg);
   color: var(--text);
+  transition: backgraund .3s, color .3s;
 }
 .container{max-width:1100px;margin:0 auto;padding:28px 18px 60px}
 .topbar{
@@ -29,7 +30,7 @@ body{
 @media (max-width: 900px){ .grid2{grid-template-columns:1fr} .title{font-size:36px}}
 .profile{
   display:flex;gap:18px;align-items:stretch;
-  border-radius:16px;overflow:hidden;border:2px solid #dbeafe;
+  border-radius:16px;overflow:hidden;border:2px solid var(--line);
 }
 .profile img{width:46%;object-fit:cover;display:block}
 .profile .bio{padding:16px}
