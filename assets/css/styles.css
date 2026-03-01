@@ -56,12 +56,12 @@ body{
 .muted{color:var(--muted)}
 .toolbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-top:8px}
 .input{flex:1;min-width:220px;padding:10px 12px;border-radius:12px;border:2px solid var(--line)}
-.select{padding:10px 12px;border-radius:12px;border:2px solid var(--line);background:#000000}
+.select{padding:10px 12px;border-radius:12px;border:2px solid var(--line);background:#81fffd}
 .btn{
   padding:10px 12px;
   border-radius:12px;
   border:2px solid var(--line);
-  background:#000000;
+  background:black;
   cursor:pointer;
   text-decoration:none;
   color:#ffffff;
