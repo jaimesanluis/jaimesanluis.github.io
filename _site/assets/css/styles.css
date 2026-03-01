@@ -4,7 +4,7 @@
   --muted:#4b6b70;
   --card:#96c5c8;
   --line:rgb(41, 77, 88);
-  --brand:#b7f7ff;
+  --brand:#5dfcff;
   --brand2:#b7f7ff;
   --shadow: 0 16px 50px rgba(2,6,23,.10);
   --radius: 18px;
@@ -73,6 +73,6 @@ body{
 .btn:hover{
   background: var(--brand);
   transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.901);
 }
 .repoMeta{display:flex;gap:10px;flex-wrap:wrap;align-items:center;font-size:12px;color:var(--muted)}
