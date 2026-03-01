@@ -61,10 +61,10 @@ body{
   padding:10px 12px;
   border-radius:12px;
   border:2px solid var(--line);
-  background:#9effff;
+  background:#000000;
   cursor:pointer;
   text-decoration:none;
-  color:#96f8ff;
+  color:#ffffff;
   display:inline-block;
   transition: all 0.3s ease;
   font-weight: 500;
